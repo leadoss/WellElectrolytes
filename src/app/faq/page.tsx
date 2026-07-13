@@ -8,7 +8,7 @@ import { Metadata } from "next";
 const FAQS = [
   {
     q: "What makes Well Electrolytes different from other brands?",
-    a: "We use zero sugar, zero artificial sweeteners (except natural Stevia), zero artificial colors, and zero fillers. Every batch is third-party tested and made in an FDA registered facility. Most electrolyte brands compromise on one of these — we don't compromise on any.",
+    a: "We use zero sugar, zero artificial sweeteners (except natural Stevia), zero artificial colors, and zero fillers. Every batch is third-party tested and made in an FDA registered facility. Most electrolyte brands compromise on one of these. We don't compromise on any.",
   },
   {
     q: "How many servings are in each bag?",
@@ -16,7 +16,7 @@ const FAQS = [
   },
   {
     q: "When is the best time to take Well Electrolytes?",
-    a: "Most customers take it first thing in the morning, before/during/after workouts, or anytime they feel dehydrated. Since it has 0 caffeine and 0 stimulants, it can be taken any time of day — even before bed.",
+    a: "Most customers take it first thing in the morning, before/during/after workouts, or anytime they feel dehydrated. Since it has 0 caffeine and 0 stimulants, it can be taken any time of day, even before bed.",
   },
   {
     q: "Is Well Electrolytes safe for diabetics?",
@@ -40,7 +40,7 @@ const FAQS = [
   },
   {
     q: "Do you offer a money-back guarantee?",
-    a: "Absolutely. If you're not 100% satisfied with your purchase, contact us within 30 days for a full refund — no questions asked. We stand behind our product.",
+    a: "Absolutely. If you're not 100% satisfied with your purchase, contact us within 30 days for a full refund. No questions asked. We stand behind our product.",
   },
   {
     q: "Can I take Well Electrolytes while pregnant or breastfeeding?",

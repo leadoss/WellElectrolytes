@@ -140,7 +140,7 @@ export default function ProductPage({ params }: Props) {
             {added ? (
               <><Check size={20} /> Added to Cart!</>
             ) : (
-              <><ShoppingBag size={20} /> Add to Cart — ${displayPrice}</>
+              <><ShoppingBag size={20} /> Add to Cart ${displayPrice}</>
             )}
           </motion.button>
 

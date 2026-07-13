@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 import { useCartStore } from "@/lib/cartStore";
 
 const CHECKLIST = [
-  { label: "100% Natural Ingredients", desc: "No artificial anything — ever" },
+  { label: "100% Natural Ingredients", desc: "No artificial anything. Ever." },
   { label: "FDA Registered Facility", desc: "Made in USA under strict standards" },
   { label: "Third Party Tested", desc: "Every batch independently verified" },
   { label: "Recommended by Nutritionists", desc: "Formulated with experts" },

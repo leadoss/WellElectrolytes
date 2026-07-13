@@ -33,16 +33,16 @@ export const PRODUCTS: Product[] = [
     reviews: [
       {
         id: "r1",
-        author: "Sarah M.",
+        author: "Lara",
         rating: 5,
         text: "Best electrolytes I've ever tried. The berry flavor is so refreshing and it actually keeps me hydrated during my long runs.",
         date: "2026-06-15",
       },
       {
         id: "r2",
-        author: "Jake T.",
+        author: "Karim",
         rating: 5,
-        text: "No sugar crash, no junk — just clean energy. I mix this every morning now.",
+        text: "No sugar crash, no junk. Just clean energy. I mix this every morning now.",
         date: "2026-06-20",
       },
     ],
@@ -53,7 +53,7 @@ export const PRODUCTS: Product[] = [
     name: "Orange Electrolytes",
     tagline: "Citrus Energy Without the Sugar Crash.",
     description:
-      "Bold orange flavor, zero calories, zero sugar. Our Orange Electrolytes give you that citrus kick with all the minerals you need to perform at your best — without the sugar crash that follows.",
+      "Bold orange flavor, zero calories, zero sugar. Our Orange Electrolytes give you that citrus kick with all the minerals you need to perform at your best, without the sugar crash that follows.",
     price: 30,
     salePrice: 27,
     savePct: 10,
@@ -79,14 +79,14 @@ export const PRODUCTS: Product[] = [
     reviews: [
       {
         id: "r3",
-        author: "Mia R.",
+        author: "Nour",
         rating: 5,
         text: "I'm obsessed. I drink this instead of sports drinks now and I feel so much better. No sugar crash at all.",
         date: "2026-06-10",
       },
       {
         id: "r4",
-        author: "Carlos D.",
+        author: "Tarek",
         rating: 4,
         text: "Great taste, mixes easily. Perfect for my post-workout recovery.",
         date: "2026-06-28",
@@ -99,7 +99,7 @@ export const PRODUCTS: Product[] = [
     name: "Lemon Electrolytes",
     tagline: "Pure Hydration. No Junk. Just Lemon.",
     description:
-      "0 Calories. 0 Sugar. 0 BS. Our Lemon Electrolytes are as clean as it gets — crisp lemon flavor with a powerful mineral blend to keep you at peak hydration all day long.",
+      "0 Calories. 0 Sugar. 0 BS. Our Lemon Electrolytes are as clean as it gets: crisp lemon flavor with a powerful mineral blend to keep you at peak hydration all day long.",
     price: 30,
     salePrice: 27,
     savePct: 10,
@@ -125,14 +125,14 @@ export const PRODUCTS: Product[] = [
     reviews: [
       {
         id: "r5",
-        author: "Alex K.",
+        author: "Elie",
         rating: 5,
         text: "This is my go-to. Clean, refreshing, and actually works. I've tried so many electrolyte brands and this is the only one without a weird aftertaste.",
         date: "2026-07-01",
       },
       {
         id: "r6",
-        author: "Priya S.",
+        author: "Zeina",
         rating: 5,
         text: "Love that it's 0 calories. I drink it all day and it tastes amazing.",
         date: "2026-07-05",

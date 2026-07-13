@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { Check } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us — Well Electrolytes",
-  description: "The story behind Well Electrolytes — why we exist, what we believe, and how we make the cleanest electrolytes on the market.",
+  title: "About Us | Well Electrolytes",
+  description: "The story behind Well Electrolytes: why we exist, what we believe, and how we make the cleanest electrolytes on the market.",
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
             <span className="text-[#2DD4C8]">Garbage Ingredients</span>
           </h1>
           <p className="mt-6 text-white/70 text-lg leading-relaxed max-w-2xl mx-auto">
-            So we built the electrolyte brand we always wanted — clean, effective, and delicious. No sugar. No artificial junk. Just the good stuff.
+            So we built the electrolyte brand we always wanted: clean, effective, and delicious. No sugar. No artificial junk. Just the good stuff.
           </p>
         </div>
       </section>
@@ -30,13 +30,13 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-black text-[#4A3222] mb-4">Why We Started Well</h2>
               <p className="text-[#4A3222]/70 leading-relaxed mb-4">
-                It started with a simple frustration: every electrolyte drink on the market was either loaded with sugar, full of artificial dyes, or tasted like chemical waste. We're athletes, parents, and health-conscious people — and we deserved better.
+                It started with a simple frustration: every electrolyte drink on the market was either loaded with sugar, full of artificial dyes, or tasted like chemical waste. We're athletes, parents, and health-conscious people. We deserved better.
               </p>
               <p className="text-[#4A3222]/70 leading-relaxed mb-4">
                 We spent 18 months working with sports nutritionists and food scientists to create the perfect electrolyte formula. The goal: maximum hydration, zero compromise.
               </p>
               <p className="text-[#4A3222]/70 leading-relaxed">
-                Today, Well Electrolytes is trusted by over 10,000 customers — from elite athletes to busy parents to everyday people who just want to drink something better.
+                Today, Well Electrolytes is trusted by over 10,000 customers: from elite athletes to busy parents to everyday people who just want to drink something better.
               </p>
             </div>
             <div className="bg-gradient-to-br from-[#2DD4C8]/20 to-[#2DD4C8]/5 rounded-3xl p-8 text-center">
@@ -68,7 +68,7 @@ export default function AboutPage() {
             {[
               {
                 title: "Radical Transparency",
-                desc: "Every ingredient, every amount, every source — on the label. No proprietary blends. No hidden fillers.",
+                desc: "Every ingredient, every amount, every source on the label. No proprietary blends. No hidden fillers.",
                 color: "#2DD4C8",
               },
               {
@@ -78,7 +78,7 @@ export default function AboutPage() {
               },
               {
                 title: "Actually Delicious",
-                desc: "We believe healthy doesn't have to taste bad. Our flavors are crafted to taste amazing — every single time.",
+                desc: "We believe healthy doesn't have to taste bad. Our flavors are crafted to taste amazing, every single time.",
                 color: "#C84B8F",
               },
             ].map((val) => (

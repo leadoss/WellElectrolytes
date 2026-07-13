@@ -29,7 +29,7 @@ export default function HeroSection() {
           >
             <span className="w-2 h-2 rounded-full bg-[#2DD4C8] animate-pulse" />
             <span className="text-xs font-bold text-[#2DD4C8] uppercase tracking-widest">
-              0 Sugar · 0 Calories · Pure Hydration
+              0 Sugar · 0 Calories · 0 Caffeine
             </span>
           </motion.div>
 
@@ -70,8 +70,8 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-8 text-lg text-[#4A3222]/70 leading-relaxed max-w-md font-medium"
           >
-            Premium electrolytes packed with essential minerals, vitamins, and natural flavor —
-            with zero sugar, zero calories, and zero junk. Your body deserves better.
+            Premium electrolytes packed with essential minerals, vitamins, and natural flavor.
+            Zero sugar, zero calories, and zero junk. Your body deserves better.
           </motion.p>
 
           <motion.div
@@ -84,7 +84,7 @@ export default function HeroSection() {
               onClick={handleShopNow}
               className="bg-[#2DD4C8] text-white font-bold px-8 py-4 rounded-full text-base hover:bg-[#22B5AB] transition-all hover:scale-105 active:scale-95 cursor-pointer shadow-lg shadow-[#2DD4C8]/30"
             >
-              Shop Now — $27
+              Shop Now $27
             </button>
             <a
               href="#flavors"

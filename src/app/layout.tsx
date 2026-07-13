@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Well Electrolytes — Pure Hydration. Zero Sugar. Zero Junk.",
+  title: "Well Electrolytes: Pure Hydration. Zero Sugar. Zero Junk.",
   description:
     "Premium electrolytes with essential minerals, vitamins, and natural fruit flavor. 0 calories, 0 sugar, 0 artificial anything. Hydrate better with Well.",
   keywords: ["electrolytes", "hydration", "zero sugar", "sugar free", "sports drink", "minerals"],
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
   openGraph: {
-    title: "Well Electrolytes — Pure Hydration",
+    title: "Well Electrolytes: Pure Hydration",
     description: "Premium electrolytes with zero sugar, zero calories. Stay hydrated the right way.",
     type: "website",
     siteName: "Well Electrolytes",

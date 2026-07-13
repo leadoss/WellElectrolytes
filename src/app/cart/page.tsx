@@ -121,7 +121,7 @@ export default function CartPage() {
                       <div className="flex items-center gap-2">
                         <Tag size={14} className="text-[#2DD4C8]" />
                         <span className="text-sm font-semibold text-[#2DD4C8]">
-                          {appliedPromo.code} — {appliedPromo.percentPct}% off
+                          {appliedPromo.code}: {appliedPromo.percentPct}% off
                         </span>
                       </div>
                       <button
