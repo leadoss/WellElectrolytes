@@ -67,8 +67,25 @@ export default function CheckoutPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    const itemLines = items
+      .map((item) => `• ${item.product.name} (${item.size.label}) x${item.quantity} = $${(item.product.salePrice * item.size.multiplier * item.quantity).toFixed(2)}`)
+      .join("\n");
+
+    const waMessage = `🛒 *NEW ORDER — Well Electrolytes*\n\n*Customer:* ${form.firstName} ${form.lastName}\n*Phone:* ${form.phone}\n*Email:* ${form.email || "Not provided"}\n\n*Delivery Address:*\n${form.address}, ${form.city}, ${form.region}\n${form.notes ? `Notes: ${form.notes}` : ""}\n\n*Items:*\n${itemLines}\n\n*Subtotal:* $${subtotal.toFixed(2)}${discount > 0 ? `\n*Discount (${appliedPromo?.code}):* -$${discount.toFixed(2)}` : ""}\n*Shipping (${shipping === "express" ? "Express" : "Standard"}):* ${shippingCost === 0 ? "FREE" : `$${shippingCost.toFixed(2)}`}\n*TOTAL: $${grandTotal.toFixed(2)}*\n\n*Payment:* ${payment === "cod" ? "Cash on Delivery" : "Credit / Debit Card"}`;
+
+    // Send email via API
+    fetch("/api/send-order", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ form, items, shipping, payment, subtotal, discount, shippingCost, grandTotal, appliedPromo }),
+    }).catch(() => {});
+
+    // Open WhatsApp with order details
+    window.open(`https://wa.me/${process.env.NEXT_PUBLIC_NOTIFY_WHATSAPP || "233530000220"}?text=${encodeURIComponent(waMessage)}`, "_blank");
+
     setSubmitted(true);
   };
 
