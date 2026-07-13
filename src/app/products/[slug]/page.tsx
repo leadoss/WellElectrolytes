@@ -56,7 +56,7 @@ export default function ProductPage({ params }: Props) {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="sticky top-32"
+          className=""
         >
           <div className="rounded-3xl overflow-hidden h-96 md:h-[500px]">
             <ProductImage product={product} size="lg" />
