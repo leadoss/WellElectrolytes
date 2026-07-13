@@ -84,7 +84,7 @@ export default function HeroSection() {
               onClick={handleShopNow}
               className="bg-[#2DD4C8] text-white font-bold px-8 py-4 rounded-full text-base hover:bg-[#22B5AB] transition-all hover:scale-105 active:scale-95 cursor-pointer shadow-lg shadow-[#2DD4C8]/30"
             >
-              Shop Now $27
+              Shop Now
             </button>
             <a
               href="#flavors"
