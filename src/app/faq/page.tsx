@@ -118,7 +118,9 @@ export default function FAQPage() {
           <h2 className="text-2xl font-black mb-2">Still have questions?</h2>
           <p className="text-white/60 mb-6">Our team responds within 24 hours.</p>
           <a
-            href="mailto:hello@wellelectrolytes.com"
+            href="https://wa.me/96170542378"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#2DD4C8] text-white font-bold px-8 py-3.5 rounded-full hover:bg-[#22B5AB] transition-colors cursor-pointer inline-block"
           >
             Contact Us
