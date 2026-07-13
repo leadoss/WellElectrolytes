@@ -10,7 +10,6 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <AsSeenIn />
       <FlavorsSection />
       <SocialProofStrip />
       <IngredientsSection />
