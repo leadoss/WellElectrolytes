@@ -101,7 +101,7 @@ export default function TestimonialsSection() {
                 </div>
                 <div>
                   <p className="font-bold text-sm text-[#4A3222]">{t.name}</p>
-                  <p className="text-xs text-[#4A3222]/40">{t.handle} · {t.product}</p>
+                  <p className="text-xs text-[#4A3222]/40">{t.product}</p>
                 </div>
               </div>
             </motion.div>
