@@ -43,8 +43,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${poppins.variable} scroll-smooth`}>
       <body className="min-h-screen flex flex-col antialiased">
-        <AnnouncementBar />
-        <Navbar />
+        <div className="fixed top-0 left-0 right-0 z-50">
+          <AnnouncementBar />
+          <Navbar />
+        </div>
         <CartDrawer />
         <main className="flex-1">{children}</main>
         <Footer />

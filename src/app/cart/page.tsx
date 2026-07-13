@@ -29,7 +29,7 @@ export default function CartPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F9F5F0] pt-24 pb-16">
+    <div className="min-h-screen bg-[#F9F5F0] pt-32 pb-16">
       <div className="max-w-6xl mx-auto px-5 md:px-8">
         <h1 className="text-4xl font-black text-[#4A3222] mb-8">Your Cart</h1>
 

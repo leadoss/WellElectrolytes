@@ -37,7 +37,7 @@ export default function ProductPage({ params }: Props) {
   const related = PRODUCTS.filter((p) => p.slug !== slug).slice(0, 2);
 
   return (
-    <div className="pt-20">
+    <div className="pt-32">
       {/* Breadcrumb */}
       <div className="max-w-7xl mx-auto px-5 md:px-8 py-4">
         <div className="flex items-center gap-2 text-sm text-[#4A3222]/50">
@@ -56,7 +56,7 @@ export default function ProductPage({ params }: Props) {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="sticky top-24"
+          className="sticky top-32"
         >
           <div className="rounded-3xl overflow-hidden h-96 md:h-[500px]">
             <ProductImage product={product} size="lg" />

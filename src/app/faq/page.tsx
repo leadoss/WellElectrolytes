@@ -88,7 +88,7 @@ export default function FAQPage() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <div className="pt-24 pb-16 bg-[#F9F5F0] min-h-screen">
+    <div className="pt-32 pb-16 bg-[#F9F5F0] min-h-screen">
       <div className="max-w-3xl mx-auto px-5 md:px-8">
         {/* Header */}
         <div className="text-center mb-14">

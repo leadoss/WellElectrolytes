@@ -13,7 +13,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-white pt-20">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-white pt-32">
       {/* Background decorative elements */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#2DD4C8]/8 rounded-full -translate-y-1/2 translate-x-1/3 blur-3xl" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#F9F5F0] rounded-full translate-y-1/2 -translate-x-1/3" />
