@@ -225,10 +225,14 @@ export default function CartDrawer() {
                   </div>
                 </div>
 
-                <button className="w-full bg-[#2DD4C8] text-white font-bold py-4 rounded-full text-base hover:bg-[#22B5AB] transition-colors cursor-pointer flex items-center justify-center gap-2">
+                <Link
+                  href="/checkout"
+                  onClick={closeCart}
+                  className="w-full bg-[#2DD4C8] text-white font-bold py-4 rounded-full text-base hover:bg-[#22B5AB] transition-colors cursor-pointer flex items-center justify-center gap-2"
+                >
                   Checkout
                   <ChevronRight size={18} />
-                </button>
+                </Link>
 
                 <Link
                   href="/cart"
