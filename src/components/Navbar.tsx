@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useCartStore } from "@/lib/cartStore";
 
 const NAV_LINKS = [
+  { label: "Home", href: "/" },
   { label: "Shop", href: "/products/mixed-berries" },
   { label: "Flavors", href: "/#flavors" },
   { label: "About", href: "/about" },
