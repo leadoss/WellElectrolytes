@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "cd \"C:/Users/user/leas real estate/well-electrolytes\" && git add -A && CHANGED=$(git diff --cached --name-only 2>/dev/null | head -3 | tr \"\\n\" \", \" | sed \"s/, $//\") && [ -n \"$CHANGED\" ] && git commit -m \"Update: $CHANGED\" && git push origin main 2>/dev/null || true",
+            "statusMessage": "Committing and pushing to GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}
