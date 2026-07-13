@@ -178,10 +178,10 @@ export default function CartPage() {
                   </div>
                 </div>
 
-                <button className="w-full bg-[#2DD4C8] text-white font-bold py-4 rounded-full text-base hover:bg-[#22B5AB] transition-colors cursor-pointer flex items-center justify-center gap-2">
+                <Link href="/checkout" className="w-full bg-[#2DD4C8] text-white font-bold py-4 rounded-full text-base hover:bg-[#22B5AB] transition-colors cursor-pointer flex items-center justify-center gap-2">
                   Proceed to Checkout
                   <ChevronRight size={18} />
-                </button>
+                </Link>
 
                 <Link href="/#flavors" className="block text-center text-sm text-[#4A3222]/50 hover:text-[#4A3222] cursor-pointer font-medium">
                   Continue Shopping
