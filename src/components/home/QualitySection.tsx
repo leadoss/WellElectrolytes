@@ -6,7 +6,7 @@ import { useCartStore } from "@/lib/cartStore";
 
 const CHECKLIST = [
   { label: "100% Natural Ingredients", desc: "No artificial anything. Ever." },
-  { label: "FDA Registered Facility", desc: "Made in USA under strict standards" },
+  { label: "FDA Registered Facility", desc: "Made in Lebanon under strict standards" },
   { label: "Third Party Tested", desc: "Every batch independently verified" },
   { label: "Recommended by Nutritionists", desc: "Formulated with experts" },
   { label: "Non-GMO & Gluten-Free", desc: "Clean for every lifestyle" },
