@@ -18,6 +18,12 @@ export const metadata: Metadata = {
   description:
     "Premium electrolytes with essential minerals, vitamins, and natural fruit flavor. 0 calories, 0 sugar, 0 artificial anything. Hydrate better with Well.",
   keywords: ["electrolytes", "hydration", "zero sugar", "sugar free", "sports drink", "minerals"],
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     title: "Well Electrolytes — Pure Hydration",
     description: "Premium electrolytes with zero sugar, zero calories. Stay hydrated the right way.",
